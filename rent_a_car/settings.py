@@ -235,6 +235,10 @@ CELERY_BROKER_URL = 'amqp://localhost'
 
 
 STATIC_ROOT = '/static'
+STATIC_URL = '/static/' 
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, "/static/"),
+# ]
 COMPRESS_ENABLED = True
 
 STATICFILES_FINDERS = (
